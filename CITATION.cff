@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Variability in Attention with Transformers in
+  Object Classification and Detection
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Devesh
+    family-names: Shah
+    email: dmshah4@wisc.edu
+    affiliation: University of Wisconsin Madison
+  - given-names: Varun
+    family-names: Chadha
+    email: vchadha2@wisc.edu
+    affiliation: University of Wisconsin Madison
+  - given-names: Vignesh
+    family-names: Selvaraj
+    email: vselvaraj@wisc.edu
+    affiliation: University of Wisconsin Madison
+  - given-names: Saym
+    family-names: Imatz
+    email: simtiaz@wisc.edu
+    affiliation: University of Wisconsin Madison
