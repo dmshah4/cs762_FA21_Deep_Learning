@@ -2,10 +2,10 @@
 This is the final project implementation for CS762 Advanced Deep Learning at UW Madison
 
 ## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
 * [Project Structure](#project-structure)
-* [Licensing](#licensing)
+* [Set Up](#set-up)
+* [Usage](#usage)
+* [Tips](#tips)
 
 ## Project Structure
     .
