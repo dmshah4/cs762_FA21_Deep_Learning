@@ -87,6 +87,7 @@ def selected_bb(prediction, confidence, num_classes, nms_conf=0.4):
 
     return seq
 
+# Taken from https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
 def bbox_iou(box1, box2):
     """
     Returns the IoU of two bounding boxes 
@@ -115,7 +116,7 @@ def bbox_iou(box1, box2):
     return iou
 
 
-
+# Taken from https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
 def write_results(prediction, confidence, num_classes, nms_conf = 0.4):
     conf_mask = (prediction[:,:,4] > confidence).float().unsqueeze(2)
     prediction = prediction*conf_mask
@@ -207,6 +208,7 @@ def write_results(prediction, confidence, num_classes, nms_conf = 0.4):
     except:
         return 0
 
+# Taken from https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
 def unique(tensor):
     tensor_np = tensor.cpu().numpy()
     unique_np = np.unique(tensor_np)
