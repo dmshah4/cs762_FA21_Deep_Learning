@@ -6,6 +6,7 @@ This is the final project implementation for CS762 Advanced Deep Learning at UW 
 * [Set Up](#set-up)
 * [Usage](#usage)
 * [Tips](#tips)
+* [References](#references)
 
 ## Project Structure
     .
@@ -56,3 +57,6 @@ We ran these notebooks on goodle drive using google collab. To get the best recr
 ## Tips
 Those with a keen eye will notice that there is much improvement for code optimization in this work.
 It should be fairly simple to improve the runtime efficiency of the provided notebooks if one wishes to do so.
+
+## References
+Kathuria, A. (2021). Tutorial on implementing YOLO v3 from scratch in PyTorch. Retrieved 21 December 2021, from https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
